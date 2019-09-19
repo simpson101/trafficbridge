@@ -248,11 +248,7 @@ window.bioEp = {
 				bioEp.showPopup();
 		}.bind(this));
 
-		// Handle the popup close button
-		this.addEvent(this.closeBtnEl, "click", function() {
-			bioEp.hidePopup();
-		});
-
+		
 		// Handle window resizing
 		this.addEvent(window, "resize", function() {
 			bioEp.scalePopup();
